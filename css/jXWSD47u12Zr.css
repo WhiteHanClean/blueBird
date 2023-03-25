@@ -734,7 +734,7 @@ section.third{
     font-weight: 400;
     font-size: 15px;
     line-height: 160%;
-    color: #D0A666;
+    color: white;
     margin-bottom: 11px;
     display: block;
 }
@@ -787,7 +787,7 @@ section.contacts{
     font-size: 15px;
     line-height: 160%;    
     text-align: right;
-    color: #858484;
+    color: white;
     text-transform: uppercase;
 }
 .c-pointer{
@@ -1587,7 +1587,6 @@ p.write-text.writeBackText  {
     line-height: 120%;
     text-transform: capitalize;
     color: #FFFFFF;
-    background: #132033;
     position: absolute;
     top: 119px;
     left: 20px;
@@ -2005,6 +2004,7 @@ color: #FFFFFF;
 
 .footer_logo_conteiner{
     padding:60px 0 75px 0;
+    opacity: 0 !important;
 }
 
 @media (max-width:992px) {
@@ -2978,7 +2978,8 @@ color: #FFFFFF;
     font-weight: 300;
     font-size: 10px;
     line-height: 100%;
-    color: #D0A666;
+    color: white;
+    padding-bottom: 10px;
 }
 .footerMoore{
     font-family: 'SangBleu Empire Trial';
